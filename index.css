@@ -1,0 +1,19 @@
+@import './css/hero.css';
+@import './css/feature-cars.css';
+
+/* This is your first CSS file. This will help us give our website color and position elements where we need them. */
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("./assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url("./assets/fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url("./assets/fonts/Montserrat-Light.ttf");
+}
