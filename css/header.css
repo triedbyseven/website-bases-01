@@ -67,7 +67,6 @@
     .header ul {
         overflow: scroll;
         flex-direction: row;
-        flex-wrap: nowrap;
         justify-content: flex-start;
         padding: 15px 0;
         -ms-overflow-style: none;
@@ -79,6 +78,11 @@
     }
 
     .header li {
+        flex-shrink: 0;
+        padding: 0;
+    }
+
+    .header li a {
         padding: 0 10px;
     }
 }
