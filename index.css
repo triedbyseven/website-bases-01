@@ -93,7 +93,7 @@
 
 @media (max-width: 600px) {
     .advertisement {
-        padding: 25px 0;
+        padding: 25px 15px;
     }
 
     .advertisement .inner-container {
@@ -101,7 +101,7 @@
     }
 
     .advertisement .card {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .advertisement .column {
@@ -115,8 +115,8 @@
 
     .advertisement .image {
         padding: 105px 0 !important;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0;
     }
 }
