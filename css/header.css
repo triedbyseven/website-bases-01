@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url("../assets/fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url("../assets/fonts/Montserrat-Light.ttf");
+}
+
+
 .header {
     padding: 15px 0;
 }
