@@ -66,6 +66,16 @@
     margin: 0;
 }
 
+/* Tablet Devices */
+@media (max-width: 1020px) {
+    .feature-cars ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Mobile Devices */
 @media (max-width: 600px) {
     .feature-cars {
         padding: 30px 15px;
@@ -73,6 +83,10 @@
 
     .feature-cars h3 {
         margin-top: 0px;
+    }
+
+    .feature-cars ul {
+        flex-direction: column;
     }
 
     .feature-cars li {
