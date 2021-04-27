@@ -1,0 +1,64 @@
+@import '../global.css';
+@import '../header.css';
+@import '../footer.css';
+
+#company {
+    background-color: #F2F2F2;
+}
+
+#company .container {
+    margin: 0 auto;
+    width: 1170px;
+    padding: 120px 0;
+}
+
+#company .bread-crumbs {
+    margin-bottom: 122px;
+    text-align: center;
+}
+
+#company .bread-crumbs ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#company .bread-crumbs li {
+    display: inline-block;
+    opacity: 0.65;
+    font-size: 14px;
+    font-family: 'Montserrat-Regular';
+    color: #000000;
+}
+
+#company .bread-crumbs li.active {
+    opacity: 1;
+    font-family: 'Montserrat-Bold';
+}
+
+#company .bread-crumbs li::after {
+    content: ' >';
+}
+
+#company .bread-crumbs li:last-child::after {
+    content: '';
+}
+
+#company .main {
+    display: flex;
+    flex-direction: row;
+}
+
+#company .main .column {
+    width: 50%;
+}
+
+#company .main .image {
+    width: 500px;
+    height: 735px;
+    background-image: url("../../assets/images/image-audi.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
